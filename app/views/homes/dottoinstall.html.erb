@@ -1,0 +1,23 @@
+<h1>ドットインストール</h1>
+---------------------<br>
+@scores = {taguchi: 200, fkoji: 400}<br>
+@x = 50<br>
+@y = "3"<br>
+------------------<br>
+
+@scores||<%= @scores %><br>
+@scores[:taguchi]||<%= @scores[:taguchi] %><br>
+@scores[:fkoji]||<%= @scores[:fkoji] %><br>
+
+@scores.size||<%= @scores.size %><br>
+@scores.keys||<%= @scores.keys %><br>
+@scores.values||<%= @scores.values %><br>
+@scores.has_key?(:taguchi)||<%= @scores.has_key?(:taguchi) %><br>
+
+@x + @y.to_i||<%= @x + @y.to_i %><br>
+@x + @y.to_f||<%= @x + @y.to_f %><br>
+@x.to_s + @y||<%= @x.to_s + @y %><br>
+
+@scores.to_a<%= @scores.to_a %><br>
+
+
